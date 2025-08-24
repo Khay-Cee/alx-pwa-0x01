@@ -1,0 +1,19 @@
+{
+  "name": "alx-movie-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "description": "",
+  "dependencies": {
+    "@ducanh2912/next-pwa": "^10.2.9"
+  },
+  "devDependencies": {
+    "webpack": "^5.101.3"
+  }
+}
