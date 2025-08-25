@@ -1,10 +1,8 @@
-const withPWAInit = require('@ducanh2912/next-pwa');
-
-/** @type {import('next').NextConfig} */
-const withPWA = withPWAInit({
-  dest: 'public'
+const withPWA = require('@ducanh2912/next-pwa').default({
+  dest: 'public',
 });
 
+/** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
   images: {
